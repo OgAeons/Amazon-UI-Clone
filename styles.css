@@ -175,3 +175,112 @@ body{
     padding: 5px;
     margin: 5px;
 }
+
+/* panel */
+.panel{
+    background-color: #232f3e;
+    height: 40px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* panel div 1 */
+.panel-all{
+    color: white;
+    font-weight: 700;
+    padding: 9px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+.panel-all i{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+/* panel div 2 */
+.panel a{
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 11px 7px;
+}
+
+.panel-a{
+    width: 85%;
+}
+
+/* shop deals - panel  */
+.shop-deals{
+    width: 200px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 11px 7px;
+}
+
+/* hero section  */
+.fade-bottom{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.hero-section{
+    background-image: url("./images/background-img.jpg");
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 1519.2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #e6e6e6);
+    z-index: 1;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(230, 230, 230, 0), #e6e6e6);
+    z-index: 2;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-msg{
+    background-color: #f5f6f6;
+    color: #0f1111;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 94%;
+    height: 18px;
+    margin-bottom: 320px;
+    z-index: 3;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
