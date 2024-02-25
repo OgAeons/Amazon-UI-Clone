@@ -331,10 +331,25 @@ body{
 
 .item{
     width: 100%;
-    /* height: 77%; */
 }
 
 .item img{
     width: 100%;
     margin: 20px 0px;
+}
+
+.top-deals-off{
+    background-color: #cc0c39;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.top-deals{
+    color: #cc0c39;
+}
+
+.box6 img{
+    height: 60%;
 }
