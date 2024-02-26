@@ -353,3 +353,40 @@ body{
 .box6 img{
     height: 60%;
 }
+
+/*   footer    */
+.footer-panel1{
+    background-color: #37475a;
+    color: white;
+    font-size: 0.85rem;
+    padding: 15px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-panel2{
+    background-color: #232f3e;
+    color: white;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-panel2 a{
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.footer-panel2 p{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footer-panel2 ul{
+    padding: 0px 50px;
+}
