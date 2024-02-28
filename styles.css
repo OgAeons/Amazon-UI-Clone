@@ -1,11 +1,15 @@
 *{
     margin: 0;
     font-family: Arial;
-    border: border-box;
 }
 
 body{
     background-color: #e6e6e6;
+}
+
+a{
+    text-decoration: none;
+    color: #007185;
 }
 
 #navbar{
@@ -18,7 +22,6 @@ body{
 }
 
 /* nav box 1 */
-
 .nav-logo{
     height: 50px;
     width: 110px;
@@ -42,7 +45,6 @@ body{
 }
 
 /* nav box 2 */
-
 .nav-address{
     padding: 9px 9px;
     margin: 5px 2px 5px 5px;
@@ -67,7 +69,6 @@ body{
 }
 
 /* nav box 3 */
-
 .nav-search{
     height: 40px;
     width: 895px;
@@ -146,7 +147,6 @@ body{
 }
 
 /* nav box 5 */
-
 .return-orders{
     height: 40px;
     width: 65px;
@@ -204,7 +204,6 @@ body{
 .panel a{
     color: white;
     font-size: 0.9rem;
-    text-decoration: none;
     padding: 11px 7px;
 }
 
@@ -280,11 +279,6 @@ body{
     z-index: 3;
 }
 
-.hero-msg a{
-    color: #007185;
-    text-decoration: none;
-}
-
 /* shop centent  */
 .shop-content{
     position: absolute;
@@ -354,7 +348,7 @@ body{
     height: 60%;
 }
 
-/*   footer    */
+/* footer-section  */
 .footer-panel1{
     background-color: #37475a;
     color: white;
@@ -413,6 +407,7 @@ body{
     padding: 0px 10px;
     color: white;
 }
+
 .pages{
     padding-top: 25px;
 }
