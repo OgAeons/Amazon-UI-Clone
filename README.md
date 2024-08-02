@@ -1,1 +1,1 @@
-#This is a Amazon Clone made using HTML and CSS.
+#This is a Amazon UI Clone made using HTML and CSS.
